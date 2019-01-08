@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="com.imooc.api.main" target="1.8" />
+      <module name="com.imooc.api.test" target="1.8" />
+      <module name="com.imooc.entity.main" target="1.8" />
+      <module name="com.imooc.entity.test" target="1.8" />
+      <module name="com.imooc.manager.main" target="1.8" />
+      <module name="com.imooc.manager.test" target="1.8" />
+      <module name="com.imooc.quartz.main" target="1.8" />
+      <module name="com.imooc.quartz.test" target="1.8" />
+      <module name="com.imooc.scripts.main" target="1.8" />
+      <module name="com.imooc.scripts.test" target="1.8" />
+      <module name="com.imooc.seller.main" target="1.8" />
+      <module name="com.imooc.seller.test" target="1.8" />
+      <module name="com.imooc.swagger.main" target="1.8" />
+      <module name="com.imooc.swagger.test" target="1.8" />
+      <module name="com.imooc.util.main" target="1.8" />
+      <module name="com.imooc.util.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
