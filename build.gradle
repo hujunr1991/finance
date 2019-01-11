@@ -1,9 +1,8 @@
-plugins {
-    id 'java'
-}
 group 'com.imooc'
 version '1.0-SNAPSHOT'
+
 apply from: "$rootDir/dependencies.gradle"
+
 subprojects {
 
     apply plugin: 'java'

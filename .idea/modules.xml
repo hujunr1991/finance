@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.imooc.financial0101.iml" filepath="$PROJECT_DIR$/.idea/modules/com.imooc.financial0101.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/financial0101.api.iml" filepath="$PROJECT_DIR$/.idea/modules/api/financial0101.api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/financial0101.api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/api/financial0101.api.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/financial0101.api.test.iml" filepath="$PROJECT_DIR$/.idea/modules/api/financial0101.api.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/entity/financial0101.entity.iml" filepath="$PROJECT_DIR$/.idea/modules/entity/financial0101.entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/entity/financial0101.entity.main.iml" filepath="$PROJECT_DIR$/.idea/modules/entity/financial0101.entity.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/entity/financial0101.entity.test.iml" filepath="$PROJECT_DIR$/.idea/modules/entity/financial0101.entity.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/manager/financial0101.manager.iml" filepath="$PROJECT_DIR$/.idea/modules/manager/financial0101.manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/manager/financial0101.manager.main.iml" filepath="$PROJECT_DIR$/.idea/modules/manager/financial0101.manager.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/manager/financial0101.manager.test.iml" filepath="$PROJECT_DIR$/.idea/modules/manager/financial0101.manager.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quartz/financial0101.quartz.iml" filepath="$PROJECT_DIR$/.idea/modules/quartz/financial0101.quartz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quartz/financial0101.quartz.main.iml" filepath="$PROJECT_DIR$/.idea/modules/quartz/financial0101.quartz.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quartz/financial0101.quartz.test.iml" filepath="$PROJECT_DIR$/.idea/modules/quartz/financial0101.quartz.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scripts/financial0101.scripts.iml" filepath="$PROJECT_DIR$/.idea/modules/scripts/financial0101.scripts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scripts/financial0101.scripts.main.iml" filepath="$PROJECT_DIR$/.idea/modules/scripts/financial0101.scripts.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scripts/financial0101.scripts.test.iml" filepath="$PROJECT_DIR$/.idea/modules/scripts/financial0101.scripts.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/seller/financial0101.seller.iml" filepath="$PROJECT_DIR$/.idea/modules/seller/financial0101.seller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/seller/financial0101.seller.main.iml" filepath="$PROJECT_DIR$/.idea/modules/seller/financial0101.seller.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/seller/financial0101.seller.test.iml" filepath="$PROJECT_DIR$/.idea/modules/seller/financial0101.seller.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/swagger/financial0101.swagger.iml" filepath="$PROJECT_DIR$/.idea/modules/swagger/financial0101.swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/swagger/financial0101.swagger.main.iml" filepath="$PROJECT_DIR$/.idea/modules/swagger/financial0101.swagger.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/swagger/financial0101.swagger.test.iml" filepath="$PROJECT_DIR$/.idea/modules/swagger/financial0101.swagger.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/financial0101.util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/financial0101.util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/financial0101.util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/financial0101.util.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/financial0101.util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/financial0101.util.test.iml" />
+    </modules>
+  </component>
+</project>

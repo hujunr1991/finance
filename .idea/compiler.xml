@@ -2,10 +2,14 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="api_main" target="1.8" />
+      <module name="api_test" target="1.8" />
       <module name="com.imooc.api.main" target="1.8" />
       <module name="com.imooc.api.test" target="1.8" />
       <module name="com.imooc.entity.main" target="1.8" />
       <module name="com.imooc.entity.test" target="1.8" />
+      <module name="com.imooc.financial0101.main" target="1.8" />
+      <module name="com.imooc.financial0101.test" target="1.8" />
       <module name="com.imooc.manager.main" target="1.8" />
       <module name="com.imooc.manager.test" target="1.8" />
       <module name="com.imooc.quartz.main" target="1.8" />
@@ -18,6 +22,38 @@
       <module name="com.imooc.swagger.test" target="1.8" />
       <module name="com.imooc.util.main" target="1.8" />
       <module name="com.imooc.util.test" target="1.8" />
+      <module name="entity_main" target="1.8" />
+      <module name="entity_test" target="1.8" />
+      <module name="financial0101.api.main" target="1.8" />
+      <module name="financial0101.api.test" target="1.8" />
+      <module name="financial0101.entity.main" target="1.8" />
+      <module name="financial0101.entity.test" target="1.8" />
+      <module name="financial0101.manager.main" target="1.8" />
+      <module name="financial0101.manager.test" target="1.8" />
+      <module name="financial0101.quartz.main" target="1.8" />
+      <module name="financial0101.quartz.test" target="1.8" />
+      <module name="financial0101.scripts.main" target="1.8" />
+      <module name="financial0101.scripts.test" target="1.8" />
+      <module name="financial0101.seller.main" target="1.8" />
+      <module name="financial0101.seller.test" target="1.8" />
+      <module name="financial0101.swagger.main" target="1.8" />
+      <module name="financial0101.swagger.test" target="1.8" />
+      <module name="financial0101.util.main" target="1.8" />
+      <module name="financial0101.util.test" target="1.8" />
+      <module name="financial0101_main" target="1.8" />
+      <module name="financial0101_test" target="1.8" />
+      <module name="manager_main" target="1.8" />
+      <module name="manager_test" target="1.8" />
+      <module name="quartz_main" target="1.8" />
+      <module name="quartz_test" target="1.8" />
+      <module name="scripts_main" target="1.8" />
+      <module name="scripts_test" target="1.8" />
+      <module name="seller_main" target="1.8" />
+      <module name="seller_test" target="1.8" />
+      <module name="swagger_main" target="1.8" />
+      <module name="swagger_test" target="1.8" />
+      <module name="util_main" target="1.8" />
+      <module name="util_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
