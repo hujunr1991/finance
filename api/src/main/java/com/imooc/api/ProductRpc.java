@@ -1,13 +1,28 @@
 package com.imooc.api;
 
+import com.googlecode.jsonrpc4j.JsonRpcService;
+import com.imooc.api.domain.ParamInf;
+import com.imooc.api.domain.ProductRpcReq;
 import com.imooc.entity.Product;
 import org.springframework.data.domain.Page;
 
+import java.util.List;
+
+@JsonRpcService("/products")
 public interface ProductRpc {
 
+    /**
+     * 查询多个产品
+     * @param req
+     * @return
+     */
+    List<Product> query(ParamInf req);
 
-    Page<Product> query(Product req);
-
+    /**
+     * 查询单个产品
+     * @param id
+     * @return
+     */
     Product findOne(String id);
 
 }

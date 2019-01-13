@@ -2,6 +2,7 @@ package com.imooc.api.domain;
 
 import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 
 import java.math.BigDecimal;
 import java.util.List;
@@ -16,7 +17,6 @@ public class ProductRpcReq implements ParamInf {
     private BigDecimal maxRewardRate;
     private List<String> statusList;
 
-    private Pageable pageable;
 
     @Override
     public String toString() {
@@ -55,11 +55,5 @@ public class ProductRpcReq implements ParamInf {
         this.statusList = statusList;
     }
 
-    public Pageable getPageable() {
-        return pageable;
-    }
 
-    public void setPageable(Pageable pageable) {
-        this.pageable = pageable;
-    }
 }

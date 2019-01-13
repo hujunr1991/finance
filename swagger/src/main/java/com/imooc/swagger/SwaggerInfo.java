@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
  * swagger 配置信息
  */
 @Component
-@ConfigurationProperties(prefix = "com/imooc/swagger")
+@ConfigurationProperties(prefix = "swagger")
 public class SwaggerInfo {
     private String groupName ="controller";
 
