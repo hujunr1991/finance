@@ -17,6 +17,11 @@ public class ProductRpcReq implements ParamInf {
     private BigDecimal maxRewardRate;
     private List<String> statusList;
 
+//    private int page;
+//    private int pageSize;
+//    private Sort.Direction direction;
+//    private String orderBy;
+
 
     @Override
     public String toString() {
@@ -54,6 +59,5 @@ public class ProductRpcReq implements ParamInf {
     public void setStatusList(List<String> statusList) {
         this.statusList = statusList;
     }
-
 
 }

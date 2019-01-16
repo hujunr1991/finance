@@ -26,12 +26,13 @@ public class ProductRpcImpl implements ProductRpc {
     private ProductService productService;
 
     @Override
-    public List<Product> query(ParamInf req) {
+    public List<Product> query(ProductRpcReq req) {
         LOG.info("查询多个产品,请求:{}", req);
         Pageable pageable = new PageRequest(0,100,Sort.Direction.DESC,"rewardRate");
         Page<Product> result = productService.query(req.getIdList(), req.getMinRewardRate(), req.getMaxRewardRate(), req.getStatusList(),pageable);
+
         LOG.info("查询多个产品,结果:{}", result);
-        return ((Page) result).getContent();
+        return result.getContent();
     }
 
     @Override
