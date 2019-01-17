@@ -7,13 +7,13 @@ logging:
   level:
     com.googlecode.jsonrpc4j: debug
 
-rpc.manager:
-  url: http://localhost:8081/manager/
+#rpc.manager:
+#  url: http://localhost:8081/manager/
 
-#rpc:
-#  client:
-#    url:  http://localhost:8081/manager/
-#    basePackage: com.imooc.api
+rpc:
+  client:
+    url:  http://localhost:8081/manager/
+    basePackage: com.imooc.api
 #spring:
 #  cache:
 #    type: hazelcast

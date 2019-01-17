@@ -7,6 +7,8 @@ import com.imooc.entity.enums.ProductStatus;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationListener;
+import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -18,39 +20,51 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-public class ProductRpcService {
+public class ProductRpcService implements ApplicationListener<ContextRefreshedEvent> {
     private static Logger LOG = LoggerFactory.getLogger(ProductRpcService.class);
 
     @Autowired
     private ProductRpc productRpc;
 
+    @Autowired
+    private ProductCache productCache;
+
     public List<Product> findAll() {
-        ProductRpcReq req = new ProductRpcReq();
-        List<String> status = new ArrayList<>();
-        status.add(ProductStatus.IN_SELL.name());
-        Pageable pageable = new PageRequest(0,1000, Sort.Direction.DESC,"rewardRate");
-        req.setStatusList(status);
-        LOG.info("rpc查询全部产品，请求{}",req);
-        List<Product> result = productRpc.query(req);
-        LOG.info("rpc查询全部产品，请求{}",result);
-        return result;
+//        ProductRpcReq req = new ProductRpcReq();
+//        List<String> status = new ArrayList<>();
+//        status.add(ProductStatus.IN_SELL.name());
+//        Pageable pageable = new PageRequest(0,1000, Sort.Direction.DESC,"rewardRate");
+//        req.setStatusList(status);
+//        LOG.info("rpc查询全部产品，请求{}",req);
+//        List<Product> result = productRpc.query(req);
+//        LOG.info("rpc查询全部产品，请求{}",result);
+//        return result;
+            return productCache.readAllCache();
     }
 
 
-    @PostConstruct
+  /*  @PostConstruct
     public void testFindAll(){
         findAll();
-    }
+    }*/
 
     public Product findOne(String id) {
-        LOG.info("rpc拆线呢单个产品，请求：{}",id);
+        LOG.info("rpc查询单个产品，请求：{}",id);
         Product result = productRpc.findOne(id);
         LOG.info("rpc查询单个产品，结果:{}",result);
         return  result;
     }
 
-    @PostConstruct
+    @Override
+    public void onApplicationEvent(ContextRefreshedEvent contextRefreshedEvent) {
+        List<Product> products = findAll();
+        products.forEach(product -> {
+            productCache.putCache(product);
+        });
+    }
+
+ /*   @PostConstruct
     public void init(){
         findOne("001");
-    }
+    }*/
 }

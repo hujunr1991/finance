@@ -10,7 +10,6 @@ import org.springframework.stereotype.Controller;
 import java.util.List;
 
 @JsonRpcService("rpc/products")
-@Controller
 public interface ProductRpc {
 
     /**
@@ -18,7 +17,7 @@ public interface ProductRpc {
      * @param req
      * @return
      */
-    List<Product> query(ProductRpcReq req);
+    List<Product> query(ParamInf req);
 
     /**
      * 查询单个产品
