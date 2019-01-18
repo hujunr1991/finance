@@ -10,10 +10,10 @@ spring:
 #    generate-ddl: true
 #    hibernate:
 #      ddl-auto: create-drop
-#  activemq:
-#    broker-url: tcp://10.5.16.14:61616
-#  jms:
-#    pub-sub-domain: true
+  activemq:
+    broker-url: tcp://10.5.16.14:61616
+  jms:
+    pub-sub-domain: true
 server:
   servlet:
     context-path: /manager

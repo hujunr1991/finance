@@ -2,11 +2,13 @@
   <library name="Gradle: mysql:mysql-connector-java:5.1.29">
     <CLASSES>
       <root url="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.29/mysql-connector-java-5.1.29.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/mysql/mysql-connector-java/5.1.29/91798a4463050f61598122fe7fdc24aa196dfc0c/mysql-connector-java-5.1.29.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.35/mysql-connector-java-5.1.35-sources.jar!/" />
       <root url="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.40/mysql-connector-java-5.1.40-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/mysql/mysql-connector-java/5.1.29/e64eca9335d057999f8361dfe2918ff95907ee36/mysql-connector-java-5.1.29-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
