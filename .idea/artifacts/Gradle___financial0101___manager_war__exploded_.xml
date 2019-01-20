@@ -102,8 +102,6 @@
             <element id="module-output" name="financial0101.util.main" />
             <element id="dir-copy" path="$PROJECT_DIR$/util/out/production/resources" />
           </element>
-          <element id="library" level="project" name="Gradle: com.github.briandilley.jsonrpc4j:jsonrpc4j:1.5.0" />
-          <element id="library" level="project" name="Gradle: net.iharder:base64:2.3.9" />
           <element id="archive" name="financial0101-api.jar">
             <element id="module-output" name="financial0101.api.main" />
             <element id="dir-copy" path="$PROJECT_DIR$/api/out/production/resources" />
@@ -118,6 +116,7 @@
           <element id="library" level="project" name="Gradle: org.apache.activemq:activemq-openwire-legacy:5.15.3" />
           <element id="library" level="project" name="Gradle: org.fusesource.hawtbuf:hawtbuf:1.11" />
           <element id="library" level="project" name="Gradle: org.apache.geronimo.specs:geronimo-j2ee-management_1.1_spec:1.0.1" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/commons-codec/commons-codec/1.8/af3be3f74d25fc5163b54f56a0d394b462dafafd/commons-codec-1.8.jar" />
         </element>
       </element>
     </root>

@@ -25,7 +25,6 @@
             <element id="module-output" name="financial0101.util.main" />
             <element id="dir-copy" path="$PROJECT_DIR$/util/out/production/resources" />
           </element>
-          <element id="library" level="project" name="Gradle: com.github.briandilley.jsonrpc4j:jsonrpc4j:1.5.0" />
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter:2.0.0.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-json:2.0.0.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-tomcat:2.0.0.RELEASE" />
@@ -38,7 +37,6 @@
           <element id="library" level="project" name="Gradle: javax.transaction:javax.transaction-api:1.2" />
           <element id="library" level="project" name="Gradle: org.springframework.data:spring-data-jpa:2.0.5.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-aspects:5.0.4.RELEASE" />
-          <element id="library" level="project" name="Gradle: net.iharder:base64:2.3.9" />
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot:2.0.0.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:2.0.0.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-logging:2.0.0.RELEASE" />
@@ -104,6 +102,7 @@
           <element id="library" level="project" name="Gradle: org.reflections:reflections:0.9.11" />
           <element id="library" level="project" name="Gradle: net.bytebuddy:byte-buddy:1.6.14" />
           <element id="library" level="project" name="Gradle: com.google.guava:guava:20.0" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/commons-codec/commons-codec/1.8/af3be3f74d25fc5163b54f56a0d394b462dafafd/commons-codec-1.8.jar" />
         </element>
       </element>
     </root>

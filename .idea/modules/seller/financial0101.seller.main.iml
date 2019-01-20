@@ -28,6 +28,15 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../util/libs/jsonrpc4j-1.5.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-web:2.0.0.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-data-jpa:2.0.0.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.commons:commons-lang3:3.5" level="project" />
@@ -86,7 +95,7 @@
     <orderEntry type="library" name="Gradle: org.springframework:spring-orm:5.0.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-tx:5.0.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
-    <orderEntry type="library" name="Gradle: com.github.briandilley.jsonrpc4j:jsonrpc4j:1.5.0" level="project" />
+    <orderEntry type="library" name="Gradle: commons-codec:commons-codec:1.8" level="project" />
     <orderEntry type="module" module-name="financial0101.swagger.main" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-messaging:5.0.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.activemq:activemq-client:5.15.3" level="project" />
@@ -97,7 +106,6 @@
     <orderEntry type="library" name="Gradle: org.springframework:spring-jcl:5.0.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.9.4" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.9.0" level="project" />
-    <orderEntry type="library" name="Gradle: net.iharder:base64:2.3.9" level="project" />
     <orderEntry type="library" name="Gradle: io.springfox:springfox-swagger2:2.7.0" level="project" />
     <orderEntry type="library" name="Gradle: io.springfox:springfox-swagger-ui:2.7.0" level="project" />
     <orderEntry type="library" name="Gradle: org.fusesource.hawtbuf:hawtbuf:1.11" level="project" />

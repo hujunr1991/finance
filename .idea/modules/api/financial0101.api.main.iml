@@ -33,6 +33,15 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../util/libs/jsonrpc4j-1.5.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-web:2.0.0.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-data-jpa:2.0.0.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.commons:commons-lang3:3.5" level="project" />
@@ -51,7 +60,7 @@
     <orderEntry type="library" name="Gradle: javax.transaction:javax.transaction-api:1.2" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.data:spring-data-jpa:2.0.5.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-aspects:5.0.4.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: com.github.briandilley.jsonrpc4j:jsonrpc4j:1.5.0" level="project" />
+    <orderEntry type="library" name="Gradle: commons-codec:commons-codec:1.8" level="project" />
     <orderEntry type="module" module-name="financial0101.swagger.main" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot:2.0.0.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:2.0.0.RELEASE" level="project" />
@@ -84,13 +93,14 @@
     <orderEntry type="library" name="Gradle: org.springframework:spring-orm:5.0.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-tx:5.0.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
-    <orderEntry type="library" name="Gradle: net.iharder:base64:2.3.9" level="project" />
     <orderEntry type="library" name="Gradle: io.springfox:springfox-swagger2:2.7.0" level="project" />
     <orderEntry type="library" name="Gradle: io.springfox:springfox-swagger-ui:2.7.0" level="project" />
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.2.3" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-to-slf4j:2.10.0" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:jul-to-slf4j:1.7.25" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-jcl:5.0.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.9.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.9.4" level="project" />
     <orderEntry type="library" name="Gradle: io.swagger:swagger-annotations:1.5.13" level="project" />
     <orderEntry type="library" name="Gradle: io.swagger:swagger-models:1.5.13" level="project" />
     <orderEntry type="library" name="Gradle: io.springfox:springfox-spi:2.7.0" level="project" />
@@ -108,8 +118,6 @@
     <orderEntry type="library" name="Gradle: net.bytebuddy:byte-buddy:1.6.14" level="project" />
     <orderEntry type="library" name="Gradle: org.jboss.logging:jboss-logging:3.3.1.Final" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml:classmate:1.3.3" level="project" />
-    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.9.4" level="project" />
-    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.9.0" level="project" />
     <orderEntry type="library" name="Gradle: com.google.guava:guava:20.0" level="project" />
   </component>
 </module>
